@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Jeff Cuts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="hairCanvas"></canvas>
+
+<div class="cursor-glow"></div>
+
+<nav>
+    <div class="logo">The Jeff Cuts</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Book</a></li>
+    </ul>
+    <div class="burger"><div></div><div></div><div></div></div>
+</nav>
+
+<section id="home" class="hero">
+    <!-- Transparent logo overlay -->
+    <div class="hero-logo">
+        <img src="images/jeff-cuts-logo-removebg-preview.png" alt="The Jeff Cuts Logo">
+    </div>
+
+    <!-- Booking button right below -->
+    <a href="https://wa.me/27710000000" target="_blank" id="bookBtn" class="reserve-btn hero-book-btn">
+        Book a Cut
+    </a>
+</section>
+
+
+<!-- SERVICE SECTION -->
+<section id="services" class="section services-pro">
+
+    <h2>Our Services</h2>
+    <p class="section-sub">
+        Professional grooming with precision and style.
+    </p>
+
+    <div class="services-grid centered-grid">
+
+        <!-- SERVICE CARD -->
+        <div class="service-card">
+            <h3>Signature Low Fade</h3>
+            <p>Clean, smooth low fade with precise blending.</p>
+            <ul>
+                <li>Consultation included</li>
+                <li>30–40 min session</li>
+                <li>Flawless finish</li>
+            </ul>
+            <div class="service-bottom">
+                <span class="price">From R150</span>
+                <a href="https://wa.me/27710000000" target="_blank" class="mini-book">Book</a>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <h3>Taper Fade</h3>
+            <p>Smooth taper along the sides and neckline.</p>
+            <ul>
+                <li>Consultation included</li>
+                <li>30–40 min session</li>
+                <li>Clean, precise finish</li>
+            </ul>
+            <div class="service-bottom">
+                <span class="price">From R120</span>
+                <a href="https://wa.me/27710000000" target="_blank" class="mini-book">Book</a>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <h3>Hair Dye</h3>
+            <p>Vibrant color with professional precision.</p>
+            <ul>
+                <li>Consultation included</li>
+                <li>60+ min session</li>
+                <li>Long-lasting finish</li>
+            </ul>
+            <div class="service-bottom">
+                <span class="price">From R250</span>
+                <a href="https://wa.me/27710000000" target="_blank" class="mini-book">Book</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="museum-slider">
+    <button class="slide-btn prev">&#10094;</button>
+    <div class="museum-track-wrapper">
+        <div class="museum-track">
+            <div class="museum-card"><img src="images/Screenshot 2025-08-07 072647.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-08-07 072717.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-08-07 072600.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085459.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085601.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085625.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085703.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085732.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085801.png"><div class="frame"></div></div>
+            <div class="museum-card"><img src="images/Screenshot 2025-12-09 085929.png"><div class="frame"></div></div>
+             
+            <!-- add more cards as needed -->
+        </div>
+    </div>
+    <button class="slide-btn next">&#10095;</button>
+</div>
+
+<section id="booking" class="section booking">
+    <h2>Book Instantly</h2>
+    <p>Fast booking. No waiting.</p>
+    <a href="https://wa.me/27710000000" target="_blank" class="reserve-btn">Book a Cut</a>
+</section>
+
+<footer>
+    <p>© 2026 Jeff Cuts | WhatsApp: 071 000 0000</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
