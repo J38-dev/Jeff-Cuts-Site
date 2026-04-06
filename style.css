@@ -711,3 +711,78 @@ footer{text-align:center;padding:20px;background:#111;color:var(--accent);}
         max-width:260px;
     }
 }
+
+
+.reviews {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.reviews h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.reviews p {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+/* =============Button=============*/
+
+/* ================= REVIEW BUTTON (MATCH RESERVE) ================= */
+.review-btn {
+  display: inline-block;
+  padding: 18px 40px; /* same as reserve-btn */
+  background: var(--accent); /* 🔥 your blue */
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: 0.4s;
+  box-shadow: 0 5px 20px rgba(135,206,235,0.5); /* match glow */
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* hover = SAME as reserve-btn */
+.review-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(135,206,235,0.8);
+}
+
+/* 🔥 shine swipe effect (your request) */
+.review-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.7),
+    transparent
+  );
+  transform: skewX(-20deg);
+}
+
+/* animate shine */
+.review-btn:hover::after {
+  left: 150%;
+  transition: 0.6s;
+}
+
+.review-btn i {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* optional subtle movement */
+.review-btn:hover i {
+  transform: translateX(4px);
+  transition: 0.3s;
+}
