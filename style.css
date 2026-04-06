@@ -786,3 +786,89 @@ footer{text-align:center;padding:20px;background:#111;color:var(--accent);}
   transform: translateX(4px);
   transition: 0.3s;
 }
+
+/* ================= LOCATION SECTION ================= */
+.location {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.location h2 {
+  margin-bottom: 15px;
+}
+
+.location p {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+/* map wrapper */
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+/* ================= CLEAN PREMIUM CONTACT ================= */
+.contact {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+/* heading */
+.contact h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* subtext */
+.contact p {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* ================= FORM ================= */
+.contact-form {
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+  transition: 0.25s;
+}
+
+/* focus = subtle premium */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+}
+
+/* remove floating labels → cleaner */
+.input-group label {
+  display: none;
+}
+
+/* ================= BUTTON ================= */
+.contact .review-btn {
+  margin-top: 10px;
+  width: 100%;
+}
