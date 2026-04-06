@@ -874,7 +874,7 @@ footer{text-align:center;padding:20px;background:#111;color:var(--accent);}
 }
 
 .site-footer {
-  background: #111;
+  background: transparent;
   color: var(--text);
   text-align: center;
   padding: 40px 20px;
